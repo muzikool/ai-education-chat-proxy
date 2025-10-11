@@ -94,7 +94,10 @@ DOCUMENTATION:
  - Screen Time not working: Verify Apple Family Sharing is set up correctly
  
  **Important Notes:**
- - Student ChatGPT account prevents mixing chat history with parent account
+ - A separate student ChatGPT account prevents mixing chat history with parent account
+ - Chrome management policy includes restricting access to other AI tools and to most major search engines, including Google, Bing, Yahoo, DuckDuckGo and Yandex
+ - Chrome management enforces AI Education Mode policy on every user of the computer, even the administrator account
+ - If the computer is shared by the administrator (parent or teacher) and student, it is recommended for the administrator to use a different web browser to avoid the restrictions in Chrome
  - Free ChatGPT accounts have message limits (5-hour windows)
  - Chrome management is mandatory once enrolled (can't be disabled without admin access)
  - Video guides available for each task
