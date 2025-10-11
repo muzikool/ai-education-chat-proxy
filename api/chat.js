@@ -6,7 +6,7 @@ export default async function handler(req, res) {
 
   // Enable CORS for your domain
   res.setHeader('Access-Control-Allow-Origin', '*'); // Change to your domain in production
-  res.setHeader('Access-Control-Allow-Methods', 'POST');
+  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
   if (req.method === 'OPTIONS') {
