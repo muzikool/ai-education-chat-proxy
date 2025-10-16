@@ -87,20 +87,29 @@ DOCUMENTATION:
  - Enrollment token: b5a23873-a1f5-4d4a-96f3-9bd3d90e92b1
  - Verification: chrome://extensions should show "Your browser is managed by Supernew"
  
- **Common Issues:**
- - Extension not installing: Wait 15-30 minutes for policy propagation
+ **Common Issues and Questions:**
+ - Extension not installing: Wait up to 5 minutes for policy propagation
  - Can't access Terminal/Command Prompt: Must have admin privileges
- - Student bypassing restrictions: Ensure incognito/guest modes disabled via enterprise policies
+ - Student bypassing restrictions: numerous Chrome policies are in place to prevent workarounds
  - Screen Time not working: Verify Apple Family Sharing is set up correctly
+
+ **Mobile Phone and Tablet Compatibility**
+ - AI Education Mode is designed to function best on a Mac or PC computer
+ - Chrome policy restrictions are not available on mobile devices
+ - ChatGPT will function in AI Education Mode, but ChatGPT's custom instructions cannot be locked down
+ - It is recommended to prevent the installation of ChatGPT and other AI tools on mobile devices, and limit web browser use with Screen Time settings
+ - If use of Safari is allowed in Screen Time settings, this will also apply to Safari on a Mac - recommend limiting use to allowed websites only, to prevent use of AI in Safari
  
  **Important Notes:**
  - A separate student ChatGPT account prevents mixing chat history with parent account
- - Chrome management policy includes restricting access to other AI tools and to most major search engines, including Google, Bing, Yahoo, DuckDuckGo and Yandex
+ - Chrome management policy includes restricting access to other AI tools and major search engines that incorporate AI, including Google, Bing, Yahoo, DuckDuckGo and Yandex
  - Chrome management enforces AI Education Mode policy on every user of the computer, even the administrator account
  - If the computer is shared by the administrator (parent or teacher) and student, it is recommended for the administrator to use a different web browser to avoid the restrictions in Chrome
- - Free ChatGPT accounts have message limits (5-hour windows)
+ - If the computer administrator needs to use a different web browser, recommend Brave Browser, which is built on the same technology as Chrome
+ - Free ChatGPT accounts can be used with AI Education Mode, but users should be aware of message limits (5-hour windows)
  - Chrome management is mandatory once enrolled (can't be disabled without admin access)
  - Video guides available for each task
+ - Chrome can be unenrolled from Supernew's Chrome management policy at any time — administrator privileges are required
 
 Your role: Answer questions clearly, guide users through troubleshooting, and help them understand which step they're on. Be friendly and patient. If you don't know something, direct them to email hello@supernew.ai for additional support.`,
 		messages,
