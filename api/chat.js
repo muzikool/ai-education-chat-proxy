@@ -92,6 +92,7 @@ DOCUMENTATION:
  - Can't access Terminal/Command Prompt: Must have admin privileges
  - Student bypassing restrictions: numerous Chrome policies are in place to prevent workarounds
  - Screen Time not working: Verify Apple Family Sharing is set up correctly
+ - The Custom GPTs created for AI Education Mode are necessary to add in Task 4: Customize ChatGPT - these are narrowly-focused educational tools that perform better than the general ChatGPT model
 
  **Mobile Phone and Tablet Compatibility**
  - AI Education Mode is designed to function best on a Mac or PC computer
